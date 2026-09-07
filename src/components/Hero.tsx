@@ -1,5 +1,5 @@
-import React from 'react';
-import { ArrowRight, Shield, MessageCircle, FileText, CheckCircle2 } from 'lucide-react';
+﻿import React from 'react';
+import { ArrowRight, CheckCircle2, Scale } from 'lucide-react';
 
 export const Hero: React.FC = () => {
   return (
@@ -72,62 +72,44 @@ export const Hero: React.FC = () => {
 
           </div>
 
-          {/* Hero Right Visual Card */}
+          {/* Hero Right: Foto Oficial do Dr. Thiago Andrade */}
           <div className="lg:col-span-5 reveal-right delay-200">
             <div className="relative group max-w-md mx-auto">
               
-              {/* Outer Glow */}
-              <div className="absolute -inset-1.5 bg-gradient-to-tr from-brand-amber via-brand-amberLight to-brand-navyCard rounded-3xl blur-md opacity-30 group-hover:opacity-50 transition duration-500" />
+              {/* Outer Golden Glow */}
+              <div className="absolute -inset-1.5 bg-gradient-to-tr from-brand-amber via-brand-amberLight to-brand-navyLight rounded-3xl blur-md opacity-40 group-hover:opacity-70 transition duration-500" />
               
-              {/* Card Container */}
-              <div className="relative rounded-2xl overflow-hidden border border-brand-amber/30 shadow-2xl bg-brand-navyCard/90 p-6 sm:p-8 space-y-6">
-                
-                {/* Monogram Badge */}
-                <div className="flex items-center justify-between border-b border-slate-700/80 pb-4">
-                  <div className="size-14 rounded-2xl bg-brand-amber/15 border border-brand-amber/40 flex items-center justify-center text-brand-amberLight font-heading font-black text-2xl tracking-wider">
-                    TA
-                  </div>
-                  <div className="text-right">
-                    <span className="block text-[11px] font-bold text-brand-amberLight uppercase tracking-wider">
+              {/* Card Container com Foto */}
+              <div className="relative rounded-2xl overflow-hidden border-2 border-brand-amber/40 shadow-2xl bg-brand-navyCard">
+                <img
+                  src="/dr-thiago-andrade.jpg"
+                  alt="Dr. Thiago Andrade - Advogado Trabalhista OAB/RJ 260.276"
+                  className="w-full h-[420px] sm:h-[480px] object-cover object-top transform transition duration-700 group-hover:scale-105"
+                />
+
+                {/* Subtle Gradient Overlay */}
+                <div className="absolute inset-0 bg-gradient-to-t from-brand-navyDark/90 via-brand-navyDark/20 to-transparent pointer-events-none" />
+
+                {/* Top Badge: Advogado Titular */}
+                <div className="absolute top-4 left-4 inline-flex items-center gap-2 bg-brand-navy/90 backdrop-blur-md px-3.5 py-1.5 rounded-full border border-brand-amber/40 text-brand-amberLight text-xs font-bold shadow-lg">
+                  <Scale className="size-3.5 text-brand-amber" />
+                  <span>Advogado Titular</span>
+                </div>
+
+                {/* Bottom Floating Info Card */}
+                <div className="absolute bottom-4 inset-x-4 glass-navy p-4 rounded-xl border border-brand-amber/30 text-left shadow-lg">
+                  <div className="flex items-center justify-between gap-2 mb-1">
+                    <h3 className="text-white font-heading font-extrabold text-base sm:text-lg">
                       Dr. Thiago Andrade
-                    </span>
-                    <span className="text-[11px] text-slate-400">
+                    </h3>
+                    <span className="text-[11px] font-bold bg-brand-amber/20 text-brand-amberLight px-2.5 py-0.5 rounded-full border border-brand-amber/40">
                       OAB/RJ 260.276
                     </span>
                   </div>
-                </div>
-
-                {/* Card Quote / Statement */}
-                <div className="space-y-3">
-                  <span className="text-xs font-bold text-brand-amber uppercase tracking-wider block">
-                    Seu caso começa com
-                  </span>
-                  <p className="text-xl sm:text-2xl font-bold text-white leading-snug">
-                    Escuta atenta, análise individualizada e orientação responsável.
-                  </p>
-                  <p className="text-xs text-slate-300 leading-relaxed">
-                    Examinamos cada detalhe do seu contrato, recibos e jornada para que você compreenda com transparência todas as alternativas jurídicas viáveis.
+                  <p className="text-xs text-slate-300 leading-snug">
+                    Defesa técnica, ética e acolhedora dos direitos dos trabalhadores perante a Justiça do Trabalho.
                   </p>
                 </div>
-
-                {/* Key Points */}
-                <div className="space-y-2.5 pt-2 border-t border-slate-700/80 text-xs text-slate-200">
-                  <div className="flex items-center gap-2">
-                    <FileText className="size-4 text-brand-amber shrink-0" />
-                    <span>Cálculo prévio das verbas não quitadas</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <Shield className="size-4 text-emerald-400 shrink-0" />
-                    <span>Defesa rigorosa perante a Justiça do Trabalho</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <MessageCircle className="size-4 text-brand-amber shrink-0" />
-                    <span>Acompanhamento direto pelo WhatsApp</span>
-                  </div>
-                </div>
-
-                {/* Accent Line */}
-                <div className="h-1 bg-gradient-to-r from-brand-amber via-brand-amberLight to-brand-amber rounded-full" />
 
               </div>
 
