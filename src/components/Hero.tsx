@@ -1,5 +1,5 @@
-﻿import React from 'react';
-import { ArrowRight, CheckCircle2, Scale } from 'lucide-react';
+import React from 'react';
+import { ArrowRight, CheckCircle2 } from 'lucide-react';
 
 export const Hero: React.FC = () => {
   return (
@@ -89,12 +89,6 @@ export const Hero: React.FC = () => {
 
                 {/* Subtle Gradient Overlay */}
                 <div className="absolute inset-0 bg-gradient-to-t from-brand-navyDark/90 via-brand-navyDark/20 to-transparent pointer-events-none" />
-
-                {/* Top Badge: Advogado Titular */}
-                <div className="absolute top-4 left-4 inline-flex items-center gap-2 bg-brand-navy/90 backdrop-blur-md px-3.5 py-1.5 rounded-full border border-brand-amber/40 text-brand-amberLight text-xs font-bold shadow-lg">
-                  <Scale className="size-3.5 text-brand-amber" />
-                  <span>Advogado Titular</span>
-                </div>
 
                 {/* Bottom Floating Info Card */}
                 <div className="absolute bottom-4 inset-x-4 glass-navy p-4 rounded-xl border border-brand-amber/30 text-left shadow-lg">
