@@ -1,4 +1,4 @@
-﻿export default async function handler(req, res) {
+export default async function handler(req, res) {
   // CORS Configuration
   res.setHeader('Access-Control-Allow-Credentials', 'true');
   res.setHeader('Access-Control-Allow-Origin', '*');
@@ -23,6 +23,11 @@
     if (!name || !phone) {
       return res.status(400).json({ error: 'Nome e WhatsApp são obrigatórios.' });
     }
+
+    const cleanName = String(name).trim();
+    const nameParts = cleanName.split(/\s+/);
+    const firstName = nameParts[0] || cleanName;
+    const lastName = nameParts.slice(1).join(' ') || '';
 
     // Format phone to international E.164 format (+55...)
     const digitsOnly = String(phone).replace(/\D/g, '');
@@ -76,17 +81,22 @@
         _embedded: {
           leads: [
             {
-              name: `Trabalhista - ${name}`,
+              name: `Trabalhista - ${cleanName}`,
               custom_fields_values: customFields
             }
           ],
           contacts: [
             {
-              first_name: name,
+              name: cleanName,
+              first_name: firstName,
+              last_name: lastName,
               custom_fields_values: [
                 {
                   field_code: "PHONE",
-                  values: [{ value: formattedPhone, enum_code: "WORK" }]
+                  values: [
+                    { value: formattedPhone, enum_code: "MOB" },
+                    { value: formattedPhone, enum_code: "WORK" }
+                  ]
                 }
               ]
             }
@@ -112,14 +122,36 @@
     });
 
     const createData = await createRes.json();
-    const leadId = createData?._embedded?.unsorted?.[0]?._embedded?.leads?.[0]?.id;
+    const unsortedItem = createData?._embedded?.unsorted?.[0];
+    const uid = unsortedItem?.uid;
+    const leadId = unsortedItem?._embedded?.leads?.[0]?.id;
+    const contactId = unsortedItem?._embedded?.contacts?.[0]?.id;
+
+    // Aceita o lead automaticamente no pipeline do Kommo para ativar o contato com status confirmado e responsável definido
+    if (uid) {
+      try {
+        await fetch(`https://${subdomain}.kommo.com/api/v4/leads/unsorted/${uid}/accept`, {
+          method: 'POST',
+          headers: {
+            'Authorization': `Bearer ${token}`,
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({
+            user_id: 14738311
+          })
+        });
+      } catch (acceptErr) {
+        console.error("Erro ao aceitar lead no pipeline do Kommo:", acceptErr);
+      }
+    }
 
     // Attach Note with full situation, city, message and contact info
     if (leadId) {
       try {
         const noteText = [
           `📋 NOVO CONTATO - LANDING PAGE TRABALHISTA`,
-          `👤 Nome: ${name}`,
+          `👤 Nome Completo: ${cleanName}`,
+          `🏷️ Primeiro Nome: ${firstName}`,
           `📱 WhatsApp: ${formattedPhone}`,
           `🏙️ Cidade: ${city || 'Não informada'}`,
           `⚖️ Situação: ${situation || 'Não especificada'}`,
@@ -140,7 +172,7 @@
         await fetch(`https://${subdomain}.kommo.com/api/v4/leads/${leadId}/notes`, {
           method: 'POST',
           headers: {
-            'Authorization': `Bearer ${token}`,
+            'Authorization': 'Bearer ' + token,
             'Content-Type': 'application/json'
           },
           body: JSON.stringify([
@@ -160,6 +192,8 @@
     return res.status(200).json({
       success: true,
       lead_id: leadId || null,
+      contact_id: contactId || null,
+      first_name: firstName,
       formatted_phone: formattedPhone,
       message: "Lead trabalhista registrado com sucesso no Kommo!"
     });
