@@ -1,4 +1,4 @@
-﻿import React, { useState } from 'react';
+import React, { useState } from 'react';
 import { 
   ArrowRight, 
   CheckCircle2, 
@@ -247,10 +247,13 @@ export const ContactForm: React.FC = () => {
                           <option value="">Selecione uma opção</option>
                           <option value="Fui demitido">Fui demitido</option>
                           <option value="Não recebi corretamente">Não recebi corretamente</option>
-                          <option value="Trabalhei sem registro">Trabalhei sem registro</option>
                           <option value="Horas extras ou jornada">Horas extras ou jornada</option>
+                          <option value="Insalubridade ou periculosidade">Insalubridade ou periculosidade</option>
+                          <option value="Trabalhei sem registro">Trabalhei sem registro</option>
+                          <option value="FGTS ou salários atrasados">FGTS ou salários atrasados</option>
                           <option value="Assédio no trabalho">Assédio no trabalho</option>
                           <option value="Acidente ou doença">Acidente ou doença</option>
+                          <option value="Desvio ou equiparação de função">Desvio ou equiparação de função</option>
                           <option value="Outra situação">Outra situação</option>
                         </select>
                         <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-4 text-slate-500">

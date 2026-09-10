@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 import { MessageSquare, FileSearch, Scale, CheckCircle2, ArrowRight } from 'lucide-react';
 
 const steps = [
@@ -30,7 +30,8 @@ const steps = [
 
 export const ProcessTimeline: React.FC = () => {
   return (
-    <section id="como-funciona" className="py-16 md:py-24 bg-brand-cream/50 border-t border-b border-brand-creamDark">
+    <section id="como-funciona" className="py-16 md:py-24 bg-brand-cream/50 border-t border-b border-brand-creamDark relative">
+      <div id="processo" className="absolute -top-24 left-0" />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}

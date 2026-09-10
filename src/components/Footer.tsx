@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 import { Scale, ShieldCheck, MapPin, ArrowUp } from 'lucide-react';
 
 export const Footer: React.FC = () => {
@@ -39,7 +39,7 @@ export const Footer: React.FC = () => {
               </div>
               <div className="flex items-center gap-2">
                 <ShieldCheck className="size-4 text-brand-amber" />
-                <span>Dr. Marcelo Igreja – 57430 OAB/CE</span>
+                <span>Dr. Marcelo Igreja – OAB/CE 57430</span>
               </div>
               <div className="flex items-center gap-2">
                 <MapPin className="size-4 text-brand-amber" />
@@ -56,10 +56,10 @@ export const Footer: React.FC = () => {
             <ul className="space-y-2 text-xs">
               <li><a href="#inicio" className="hover:text-brand-amberLight transition-colors">Início</a></li>
               <li><a href="#atuacao" className="hover:text-brand-amberLight transition-colors">Áreas de Atuação</a></li>
-              <li><a href="#sobre" className="hover:text-brand-amberLight transition-colors">Quem Cuidará do seu Caso</a></li>
+              <li><a href="#advogados" className="hover:text-brand-amberLight transition-colors">Quem Cuidará do seu Caso</a></li>
               <li><a href="#como-funciona" className="hover:text-brand-amberLight transition-colors">Como Funciona</a></li>
               <li><a href="#depoimentos" className="hover:text-brand-amberLight transition-colors">Depoimentos Reais</a></li>
-              <li><a href="#faq" className="hover:text-brand-amberLight transition-colors">Perguntas Frequentes</a></li>
+              <li><a href="#duvidas" className="hover:text-brand-amberLight transition-colors">Perguntas Frequentes</a></li>
               <li><a href="#contato" className="hover:text-brand-amberLight transition-colors">Solicitar Atendimento</a></li>
             </ul>
           </div>

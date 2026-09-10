@@ -1,9 +1,10 @@
-﻿import React from 'react';
+import React from 'react';
 import { CheckCircle2, Scale, ShieldCheck, ArrowRight } from 'lucide-react';
 
 export const AboutLawyers: React.FC = () => {
   return (
-    <section id="sobre" className="py-16 md:py-24 bg-gradient-to-b from-brand-navy via-brand-navyDark to-brand-navy text-white border-t border-brand-amber/20 overflow-hidden">
+    <section id="advogados" className="py-16 md:py-24 bg-gradient-to-b from-brand-navy via-brand-navyDark to-brand-navy text-white border-t border-brand-amber/20 overflow-hidden relative">
+      <div id="sobre" className="absolute -top-24 left-0" />
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}
@@ -89,22 +90,22 @@ export const AboutLawyers: React.FC = () => {
                   Dr. Marcelo Igreja
                 </h3>
                 <p className="text-brand-amberLight font-semibold text-sm sm:text-base mt-1">
-                  Advogado Associado e Consultor
+                  Consultor Jurídico e Executivo Comercial
                 </p>
                 <div className="inline-block mt-2 bg-brand-amber/20 text-brand-amberLight text-xs font-bold px-3 py-1 rounded-full border border-brand-amber/40">
-                  57430 OAB/CE
+                  OAB/CE 57430
                 </div>
               </div>
 
               <div className="space-y-4 text-slate-300 text-sm leading-relaxed">
                 <p>
-                  Graduado em Direito, <strong>pós-graduado em Direito do Trabalho</strong> e pós-graduando em Direito Previdenciário, Dr. Marcelo Igreja é advogado associado e consultor do Thiago Andrade Advocacia.
+                  Dr. Marcelo Igreja possui sólida trajetória em funções executivas e de liderança em grandes corporações nacionais, com ampla experiência em gestão comercial, desenvolvimento de negócios, condução de equipes e operações de alta complexidade.
                 </p>
                 <p>
-                  Atua na orientação estratégica e análise minuciosa de disputas trabalhistas, garantindo que o trabalhador tenha acesso a um diagnóstico técnico transparente sobre suas verbas e reparações cabíveis.
+                  É formado em Administração de Empresas, Gestão de Negócios e Direito, possui MBA em Marketing e pós-graduação em Direito do Trabalho. Atualmente, é pós-graduando em Direito Previdenciário, ampliando sua atuação em temas relacionados às relações trabalhistas, à proteção social e aos direitos previdenciários.
                 </p>
                 <p>
-                  Sua atuação é pautada pelo atendimento humanizado, pela análise individualizada e pela busca responsável dos direitos de cada cliente.
+                  Como consultor jurídico do Thiago Andrade Advocacia, alia conhecimento jurídico à experiência empresarial para contribuir com a análise de cenários, identificação de riscos e construção de estratégias adequadas à realidade de cada cliente. Sua atuação é pautada pela visão prática, atendimento próximo e busca por soluções seguras, responsáveis e juridicamente fundamentadas.
                 </p>
               </div>
 
@@ -126,12 +127,12 @@ export const AboutLawyers: React.FC = () => {
                 <div className="relative rounded-2xl overflow-hidden border-2 border-brand-amber/40 shadow-2xl">
                   <img
                     src="/dr-marcelo-igreja.jpg"
-                    alt="Dr. Marcelo Igreja - Advogado Associado e Consultor OAB/CE 57.430"
+                    alt="Dr. Marcelo Igreja - Consultor Jurídico e Executivo Comercial OAB/CE 57430"
                     className="w-full h-[380px] sm:h-[420px] object-cover object-top transform transition duration-500 group-hover:scale-105"
                   />
                   <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-brand-navyDark/90 via-brand-navyDark/40 to-transparent p-4 text-center">
                     <span className="text-brand-amberLight font-bold text-sm block">Dr. Marcelo Igreja</span>
-                    <span className="text-xs text-slate-300">Advogado Associado e Consultor</span>
+                    <span className="text-xs text-slate-300">Consultor Jurídico e Executivo Comercial</span>
                   </div>
                 </div>
               </div>

@@ -26,7 +26,7 @@ export const Header: React.FC = () => {
             <a href="#advogados" className="hover:text-brand-amberLight transition-colors">
               Advogados
             </a>
-            <a href="#processo" className="hover:text-brand-amberLight transition-colors">
+            <a href="#como-funciona" className="hover:text-brand-amberLight transition-colors">
               Como Funciona
             </a>
             <a href="#depoimentos" className="hover:text-brand-amberLight transition-colors">
@@ -80,7 +80,7 @@ export const Header: React.FC = () => {
             Quem Cuidará do seu Caso
           </a>
           <a
-            href="#processo"
+            href="#como-funciona"
             onClick={() => setMobileMenuOpen(false)}
             className="block px-3 py-2 rounded-md text-base font-medium text-slate-200 hover:text-brand-amberLight hover:bg-brand-navyCard"
           >

@@ -1,4 +1,4 @@
-﻿import React, { useState } from 'react';
+import React, { useState } from 'react';
 import { ChevronDown, HelpCircle, MessageCircle } from 'lucide-react';
 
 interface FaqItem {
@@ -41,7 +41,8 @@ export const FaqAccordion: React.FC = () => {
   };
 
   return (
-    <section id="faq" className="py-16 md:py-24 bg-brand-cream/60 border-t border-slate-200">
+    <section id="duvidas" className="py-16 md:py-24 bg-brand-cream/60 border-t border-slate-200 relative">
+      <div id="faq" className="absolute -top-24 left-0" />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}

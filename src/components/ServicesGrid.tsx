@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 import { 
   DollarSign, 
   Clock, 
@@ -8,7 +8,9 @@ import {
   HeartPulse, 
   ArrowRight, 
   Users,
-  ShieldCheck 
+  ShieldCheck,
+  Flame,
+  Briefcase
 } from 'lucide-react';
 
 interface ServiceItem {
@@ -40,6 +42,17 @@ const services: ServiceItem[] = [
       "Horas extras com adicional de 50% ou 100%",
       "Intervalo intrajornada (almoço) não concedido integralmente",
       "Adicional noturno e descanso semanal remunerado (DSR)"
+    ]
+  },
+  {
+    icon: Flame,
+    tag: "Adicionais de Risco",
+    title: "Insalubridade & Periculosidade",
+    desc: "Exposição a agentes nocivos, produtos químicos, ruído excessivo ou funções com perigo iminente à vida.",
+    bullets: [
+      "Adicional de insalubridade (10%, 20% ou 40% do salário)",
+      "Adicional de periculosidade (30% sobre o salário base)",
+      "Falta de fornecimento ou fiscalização de EPIs adequados"
     ]
   },
   {
@@ -85,6 +98,17 @@ const services: ServiceItem[] = [
       "Emissão de CAT e encaminhamento ao INSS",
       "Indenização por danos materiais, morais e pensão vitalícia"
     ]
+  },
+  {
+    icon: Briefcase,
+    tag: "Defesa Ampla",
+    title: "Todo Tipo de Problema Trabalhista",
+    desc: "Qualquer direito desrespeitado pela empresa merece atenção e avaliação jurídica criteriosa.",
+    bullets: [
+      "Fraude de contratação como PJ (Pejotização)",
+      "Estabilidade de gestante e reintegração ao emprego",
+      "Cobrança de equiparação salarial e desvios de função"
+    ]
   }
 ];
 
@@ -100,15 +124,15 @@ export const ServicesGrid: React.FC = () => {
             Áreas de Atuação Trabalhista
           </span>
           <h2 className="font-heading font-extrabold text-2xl sm:text-3xl md:text-4xl text-brand-navy tracking-tight">
-            Em quais situações podemos defender você?
+            Atendemos a Todo Tipo de Problema Trabalhista
           </h2>
           <p className="text-slate-600 mt-4 text-sm sm:text-base leading-relaxed">
-            Identificamos com rigor técnico os direitos sonegados durante a sua jornada de trabalho ou no momento da sua rescisão.
+            Identificamos com rigor técnico os direitos sonegados durante a sua jornada de trabalho ou no momento da sua rescisão. Seja qual for a sua situação ou irregularidade cometida pela empresa, estamos prontos para defender você.
           </p>
         </div>
 
-        {/* 6 Cards Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+        {/* 8 Cards Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 sm:gap-6">
           {services.map((item, idx) => {
             const Icon = item.icon;
             return (
@@ -175,10 +199,10 @@ export const ServicesGrid: React.FC = () => {
             </div>
             <div>
               <h4 className="font-heading font-bold text-base sm:text-lg text-white">
-                Atendimento a trabalhadores de todos os setores
+                Atendimento a todo tipo de problema em todos os setores
               </h4>
               <p className="text-slate-300 text-xs sm:text-sm mt-1">
-                Comércio, transporte, saúde, tecnologia, restaurantes, serviços domésticos, indústria, vigilância e construção civil.
+                Comércio, transporte, motoristas e entregadores, hospitais e saúde, tecnologia, restaurantes, serviços domésticos, vigilância, indústria, construção civil e trabalhadores pejotizados (PJ).
               </p>
             </div>
           </div>
