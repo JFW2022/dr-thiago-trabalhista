@@ -93,7 +93,7 @@ export const AboutLawyers: React.FC = () => {
                   Consultor Jurídico e Executivo Comercial
                 </p>
                 <div className="inline-block mt-2 bg-brand-amber/20 text-brand-amberLight text-xs font-bold px-3 py-1 rounded-full border border-brand-amber/40">
-                  OAB/CE 57430
+                  OAB/CE 57.430
                 </div>
               </div>
 
@@ -127,7 +127,7 @@ export const AboutLawyers: React.FC = () => {
                 <div className="relative rounded-2xl overflow-hidden border-2 border-brand-amber/40 shadow-2xl">
                   <img
                     src="/dr-marcelo-igreja.jpg"
-                    alt="Dr. Marcelo Igreja - Consultor Jurídico e Executivo Comercial OAB/CE 57430"
+                    alt="Dr. Marcelo Igreja - Consultor Jurídico e Executivo Comercial OAB/CE 57.430"
                     className="w-full h-[380px] sm:h-[420px] object-cover object-top transform transition duration-500 group-hover:scale-105"
                   />
                   <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-brand-navyDark/90 via-brand-navyDark/40 to-transparent p-4 text-center">

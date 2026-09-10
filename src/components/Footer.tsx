@@ -39,7 +39,7 @@ export const Footer: React.FC = () => {
               </div>
               <div className="flex items-center gap-2">
                 <ShieldCheck className="size-4 text-brand-amber" />
-                <span>Dr. Marcelo Igreja – OAB/CE 57430</span>
+                <span>Dr. Marcelo Igreja – OAB/CE 57.430</span>
               </div>
               <div className="flex items-center gap-2">
                 <MapPin className="size-4 text-brand-amber" />
