@@ -145,6 +145,28 @@ export default async function handler(req, res) {
       }
     }
 
+    // Dispara o Salesbot de WhatsApp automaticamente para o lead no Kommo
+    if (leadId) {
+      try {
+        await fetch(`https://${subdomain}.kommo.com/api/v4/bots/run`, {
+          method: 'POST',
+          headers: {
+            'Authorization': `Bearer ${token}`,
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify([
+            {
+              bot_id: 19580,
+              entity_id: leadId,
+              entity_type: 'leads'
+            }
+          ])
+        });
+      } catch (botErr) {
+        console.error("Erro ao disparar Salesbot:", botErr);
+      }
+    }
+
     // Attach Note with full situation, city, message and contact info
     if (leadId) {
       try {
