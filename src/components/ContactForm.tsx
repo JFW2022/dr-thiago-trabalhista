@@ -7,8 +7,7 @@ import {
   Lock, 
   AlertCircle, 
   Loader2,
-  PhoneCall,
-  Sparkles
+  PhoneCall
 } from 'lucide-react';
 import { useUtmCapture } from '../hooks/useUtmCapture';
 
@@ -113,11 +112,6 @@ export const ContactForm: React.FC = () => {
           
           {/* Left Column: Context & Guarantees */}
           <div className="lg:col-span-5 space-y-6 text-center lg:text-left reveal-left">
-            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-brand-amber/20 text-brand-amberLight text-xs font-bold uppercase tracking-wider">
-              <Sparkles className="size-4 text-brand-amber" />
-              <span>Análise Inicial Sem Custos</span>
-            </div>
-
             <h2 className="font-heading font-extrabold text-2xl sm:text-3xl md:text-4xl text-white tracking-tight leading-tight">
               Conte o que aconteceu no seu trabalho.
             </h2>
