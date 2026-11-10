@@ -14,12 +14,23 @@ export const Footer: React.FC = () => {
           
           {/* Brand Info */}
           <div className="md:col-span-5 space-y-4">
-            <div className="flex items-center gap-3">
+            <div className="flex items-center gap-4">
               <img
-                src="/logo-mita-horizontal-white.png"
-                alt="MITA | Marcelo Igreja & Thiago Andrade Advocacia"
-                className="h-14 sm:h-18 md:h-20 w-auto object-contain max-w-[280px] sm:max-w-[340px]"
+                src="/logo-mita-stamp-3d.png"
+                alt="MITA – Marcelo Igreja & Thiago Andrade Advocacia"
+                className="size-20 sm:size-24 object-contain shrink-0 drop-shadow-[0_4px_20px_rgba(206,170,123,0.35)]"
               />
+              <div className="space-y-1">
+                <h3 className="text-white font-heading font-extrabold text-lg sm:text-xl tracking-wider">
+                  MITA
+                </h3>
+                <span className="text-xs sm:text-sm text-brand-amberLight tracking-wider uppercase block font-semibold leading-snug">
+                  Marcelo Igreja & Thiago Andrade
+                </span>
+                <span className="text-[11px] text-slate-400 uppercase tracking-widest block font-medium">
+                  Advocacia Trabalhista & Previdenciária
+                </span>
+              </div>
             </div>
 
             <p className="text-slate-400 text-xs leading-relaxed max-w-sm">
