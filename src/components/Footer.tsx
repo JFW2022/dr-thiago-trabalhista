@@ -18,7 +18,7 @@ export const Footer: React.FC = () => {
               <img
                 src="/logo-mita-horizontal-white.png"
                 alt="MITA | Marcelo Igreja & Thiago Andrade Advocacia"
-                className="h-10 sm:h-11 w-auto object-contain"
+                className="h-14 sm:h-18 md:h-20 w-auto object-contain max-w-[280px] sm:max-w-[340px]"
               />
             </div>
 

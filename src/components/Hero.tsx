@@ -12,11 +12,11 @@ export const Hero: React.FC = () => {
           <div className="lg:col-span-7 space-y-6 text-center lg:text-left reveal-left">
             
             {/* Stamp Badge */}
-            <div className="inline-flex items-center gap-2.5 px-4 py-2 rounded-full bg-brand-navyCard border border-brand-amber/30 text-brand-amberLight text-xs sm:text-sm font-semibold shadow-md">
+            <div className="inline-flex items-center gap-3 px-4 py-2.5 rounded-full bg-brand-navyCard border border-brand-amber/30 text-brand-amberLight text-xs sm:text-sm font-semibold shadow-md">
               <img
                 src="/logo-mita-stamp.png"
                 alt="Selo MITA Advocacia"
-                className="size-5 rounded-full object-cover"
+                className="size-7 sm:size-8 rounded-full object-cover shrink-0 shadow"
               />
               <span>Advocacia trabalhista para quem precisa ser ouvido</span>
             </div>

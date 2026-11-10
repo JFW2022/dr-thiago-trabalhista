@@ -14,7 +14,7 @@ export const TopBar: React.FC = () => {
         <div className="flex items-center gap-4 text-slate-400">
           <span className="flex items-center gap-1.5">
             <Scale className="size-3.5 text-brand-amber shrink-0" />
-            OAB/RJ 260.276
+            OAB/RJ 260.276 • OAB/CE 57.430
           </span>
           <span className="hidden sm:inline-block text-slate-600">•</span>
           <span className="flex items-center gap-1.5">

@@ -7,14 +7,14 @@ export const Header: React.FC = () => {
   return (
     <header className="sticky top-0 z-40 bg-brand-navy/95 backdrop-blur-md border-b border-brand-amber/20 shadow-md">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-20">
+        <div className="flex items-center justify-between h-24 sm:h-28">
           
           {/* Logo Brand */}
-          <a href="#inicio" className="flex items-center gap-3 transition-opacity hover:opacity-90">
+          <a href="#inicio" className="flex items-center gap-3 transition-opacity hover:opacity-90 py-2">
             <img
               src="/logo-mita-horizontal-white.png"
               alt="MITA | Marcelo Igreja & Thiago Andrade Advocacia"
-              className="h-10 sm:h-12 w-auto object-contain"
+              className="h-14 sm:h-16 md:h-20 w-auto object-contain max-w-[280px] sm:max-w-[360px] md:max-w-[440px]"
             />
           </a>
 
