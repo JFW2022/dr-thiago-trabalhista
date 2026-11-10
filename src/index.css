@@ -3,43 +3,44 @@
 @tailwind utilities;
 
 @layer utilities {
-  /* Glassmorphism & Gold Glow */
+  /* Glassmorphism & Gold Glow - MITA Official Brand */
   .glass-navy {
-    background: rgba(10, 18, 30, 0.88);
+    background: rgba(12, 25, 47, 0.92);
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
-    border: 1px solid rgba(197, 131, 43, 0.25);
+    border: 1px solid rgba(206, 170, 123, 0.25);
   }
   .glass-amber-subtle {
-    background: rgba(197, 131, 43, 0.08);
+    background: rgba(206, 170, 123, 0.08);
     backdrop-filter: blur(12px);
-    border: 1px solid rgba(197, 131, 43, 0.3);
+    border: 1px solid rgba(206, 170, 123, 0.3);
   }
   .text-gradient-gold {
-    background: linear-gradient(135deg, #fcd385 0%, #d4943a 50%, #b8731d 100%);
+    background: linear-gradient(135deg, #DFCAA6 0%, #CEAA7B 50%, #B58E5E 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   .gold-glow {
-    box-shadow: 0 0 35px rgba(184, 115, 29, 0.25);
+    box-shadow: 0 0 35px rgba(206, 170, 123, 0.28);
   }
 
-  /* Gold Button from Inspiration Form */
+  /* Gold Button - MITA Dourado Champanhe (#CEAA7B) */
   .gold-btn {
-    background: linear-gradient(135deg, #c5832b 0%, #b8731d 50%, #9e5f12 100%);
-    color: #ffffff;
+    background: linear-gradient(135deg, #CEAA7B 0%, #B89260 50%, #A47F4E 100%);
+    color: #0C192F;
+    font-weight: 800;
     transition: all 0.3s ease;
   }
   .gold-btn:hover {
-    background: linear-gradient(135deg, #d4943a 0%, #c5832b 50%, #b8731d 100%);
+    background: linear-gradient(135deg, #DFCAA6 0%, #CEAA7B 50%, #B89260 100%);
     transform: translateY(-2px);
-    box-shadow: 0 10px 25px -5px rgba(184, 115, 29, 0.4);
+    box-shadow: 0 10px 25px -5px rgba(206, 170, 123, 0.45);
   }
 
   /* Shimmer Button */
   .shimmer-btn {
     background-size: 200% 100%;
-    background-image: linear-gradient(90deg, #b8731d 0%, #e5a44a 50%, #b8731d 100%);
+    background-image: linear-gradient(90deg, #B89260 0%, #DFCAA6 50%, #B89260 100%);
     animation: shimmerMove 3.5s infinite linear;
   }
 
@@ -50,7 +51,7 @@
   }
   .card-3d:hover {
     transform: translateY(-6px);
-    box-shadow: 0 20px 35px -10px rgba(8, 23, 38, 0.12), 0 0 15px rgba(184, 115, 29, 0.15);
+    box-shadow: 0 20px 35px -10px rgba(12, 25, 47, 0.15), 0 0 15px rgba(206, 170, 123, 0.18);
   }
 
   /* Scroll-Triggered Reveal Animations */

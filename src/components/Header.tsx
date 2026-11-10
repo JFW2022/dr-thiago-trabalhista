@@ -12,9 +12,9 @@ export const Header: React.FC = () => {
           {/* Logo Brand */}
           <a href="#inicio" className="flex items-center gap-3 transition-opacity hover:opacity-90">
             <img
-              src="/logo-thiago-andrade-horizontal.jpg"
-              alt="Thiago Andrade Advocacia Trabalhista"
-              className="h-11 sm:h-12 w-auto object-contain rounded border border-brand-amber/20"
+              src="/logo-mita-horizontal-white.png"
+              alt="MITA | Marcelo Igreja & Thiago Andrade Advocacia"
+              className="h-10 sm:h-12 w-auto object-contain"
             />
           </a>
 

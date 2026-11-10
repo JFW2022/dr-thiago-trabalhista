@@ -14,8 +14,8 @@ export const Hero: React.FC = () => {
             {/* Stamp Badge */}
             <div className="inline-flex items-center gap-2.5 px-4 py-2 rounded-full bg-brand-navyCard border border-brand-amber/30 text-brand-amberLight text-xs sm:text-sm font-semibold shadow-md">
               <img
-                src="/logo-thiago-andrade-stamp.jpg"
-                alt="Selo Thiago Andrade"
+                src="/logo-mita-stamp.png"
+                alt="Selo MITA Advocacia"
                 className="size-5 rounded-full object-cover"
               />
               <span>Advocacia trabalhista para quem precisa ser ouvido</span>

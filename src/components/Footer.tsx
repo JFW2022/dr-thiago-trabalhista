@@ -15,17 +15,11 @@ export const Footer: React.FC = () => {
           {/* Brand Info */}
           <div className="md:col-span-5 space-y-4">
             <div className="flex items-center gap-3">
-              <div className="size-11 rounded-xl bg-brand-amber/15 border border-brand-amber/40 flex items-center justify-center text-brand-amber font-heading font-black text-xl">
-                TA
-              </div>
-              <div>
-                <h3 className="text-white font-heading font-extrabold text-base tracking-wide">
-                  THIAGO ANDRADE
-                </h3>
-                <span className="text-[11px] text-brand-amberLight tracking-wider uppercase block font-semibold">
-                  Advocacia Trabalhista & Previdenciária
-                </span>
-              </div>
+              <img
+                src="/logo-mita-horizontal-white.png"
+                alt="MITA | Marcelo Igreja & Thiago Andrade Advocacia"
+                className="h-10 sm:h-11 w-auto object-contain"
+              />
             </div>
 
             <p className="text-slate-400 text-xs leading-relaxed max-w-sm">
@@ -82,7 +76,7 @@ export const Footer: React.FC = () => {
         {/* Bottom Bar */}
         <div className="border-t border-slate-800/80 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left">
           <p className="text-[11px] text-slate-500">
-            © {new Date().getFullYear()} Thiago Andrade Advocacia. Todos os direitos reservados.
+            © {new Date().getFullYear()} MITA – Marcelo Igreja & Thiago Andrade Advocacia. Todos os direitos reservados.
           </p>
 
           <button
