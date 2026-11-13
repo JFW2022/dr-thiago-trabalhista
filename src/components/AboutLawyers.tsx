@@ -82,7 +82,7 @@ export const AboutLawyers: React.FC = () => {
             <div className="lg:col-span-7 space-y-5 text-left order-2 lg:order-1">
               <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-brand-amber/20 text-brand-amberLight text-xs font-bold uppercase tracking-wider">
                 <ShieldCheck className="size-3.5" />
-                Consultoria Especializada
+                Advogado & Sócio
               </div>
 
               <div>
@@ -90,7 +90,7 @@ export const AboutLawyers: React.FC = () => {
                   Dr. Marcelo Igreja
                 </h3>
                 <p className="text-brand-amberLight font-semibold text-sm sm:text-base mt-1">
-                  Consultor Jurídico e Executivo Comercial
+                  Advogado e Sócio do Escritório
                 </p>
                 <div className="inline-block mt-2 bg-brand-amber/20 text-brand-amberLight text-xs font-bold px-3 py-1 rounded-full border border-brand-amber/40">
                   OAB/CE 57.430
@@ -99,13 +99,19 @@ export const AboutLawyers: React.FC = () => {
 
               <div className="space-y-4 text-slate-300 text-sm leading-relaxed">
                 <p>
-                  Dr. Marcelo Igreja possui sólida trajetória em funções executivas e de liderança em grandes corporações nacionais, com ampla experiência em gestão comercial, desenvolvimento de negócios, condução de equipes e operações de alta complexidade.
+                  Dr. Marcelo Igreja é advogado e sócio do escritório Marcelo Igreja & Thiago Andrade Advocacia, com atuação direcionada às áreas do Direito do Trabalho e do Direito Previdenciário.
                 </p>
                 <p>
-                  É formado em Administração de Empresas, Gestão de Negócios e Direito, possui MBA em Marketing e pós-graduação em Direito do Trabalho. Atualmente, é pós-graduando em Direito Previdenciário, ampliando sua atuação em temas relacionados às relações trabalhistas, à proteção social e aos direitos previdenciários.
+                  É graduado em Direito, pós-graduado em Direito do Trabalho e pós-graduando em Direito Previdenciário. Sua formação jurídica está voltada para a orientação, a prevenção de conflitos e a defesa dos direitos de trabalhadores, segurados, beneficiários e empresas.
                 </p>
                 <p>
-                  Como consultor jurídico do Thiago Andrade Advocacia, alia conhecimento jurídico à experiência empresarial para contribuir com a análise de cenários, identificação de riscos e construção de estratégias adequadas à realidade de cada cliente. Sua atuação é pautada pela visão prática, atendimento próximo e busca por soluções seguras, responsáveis e juridicamente fundamentadas.
+                  Sua trajetória profissional também foi construída em grandes corporações, nas quais exerceu funções executivas e de liderança. Essa vivência proporciona uma compreensão prática das relações de trabalho, dos ambientes organizacionais e das dificuldades enfrentadas por empresas, gestores e trabalhadores.
+                </p>
+                <p>
+                  No Direito Previdenciário, direciona sua atuação para demandas relacionadas a benefícios do INSS, incluindo aposentadorias, benefícios por incapacidade e Benefício de Prestação Continuada (BPC/LOAS). Na área trabalhista, participa da análise de questões envolvendo contratos de trabalho, verbas trabalhistas, rescisões, condições laborais e prevenção de riscos.
+                </p>
+                <p>
+                  Como sócio do escritório, Dr. Marcelo Igreja contribui para uma atuação jurídica pautada pelo atendimento próximo, pela comunicação clara e pela análise individualizada de cada situação, buscando soluções responsáveis e juridicamente fundamentadas.
                 </p>
               </div>
 
@@ -127,12 +133,12 @@ export const AboutLawyers: React.FC = () => {
                 <div className="relative rounded-2xl overflow-hidden border-2 border-brand-amber/40 shadow-2xl">
                   <img
                     src="/dr-marcelo-igreja.jpg"
-                    alt="Dr. Marcelo Igreja - Consultor Jurídico e Executivo Comercial OAB/CE 57.430"
+                    alt="Dr. Marcelo Igreja - Advogado e Sócio OAB/CE 57.430"
                     className="w-full h-[380px] sm:h-[420px] object-cover object-top transform transition duration-500 group-hover:scale-105"
                   />
                   <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-brand-navyDark/90 via-brand-navyDark/40 to-transparent p-4 text-center">
                     <span className="text-brand-amberLight font-bold text-sm block">Dr. Marcelo Igreja</span>
-                    <span className="text-xs text-slate-300">Consultor Jurídico e Executivo Comercial</span>
+                    <span className="text-xs text-slate-300">Advogado e Sócio • OAB/CE 57.430</span>
                   </div>
                 </div>
               </div>
