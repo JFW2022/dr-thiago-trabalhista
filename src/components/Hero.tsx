@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, CheckCircle2 } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 
 export const Hero: React.FC = () => {
   return (
@@ -39,24 +39,6 @@ export const Hero: React.FC = () => {
                 <span>Conheça nossa atuação</span>
                 <ArrowRight className="size-4" />
               </a>
-            </div>
-
-            {/* Trust Row */}
-            <div className="pt-4 flex flex-wrap items-center justify-center lg:justify-start gap-5 text-xs sm:text-sm text-slate-300 font-medium">
-              <span className="flex items-center gap-1.5">
-                <CheckCircle2 className="size-4 text-emerald-400" />
-                Atendimento online nacional
-              </span>
-              <span className="hidden sm:inline text-slate-600">•</span>
-              <span className="flex items-center gap-1.5">
-                <CheckCircle2 className="size-4 text-brand-amber" />
-                Comunicação clara e acessível
-              </span>
-              <span className="hidden sm:inline text-slate-600">•</span>
-              <span className="flex items-center gap-1.5">
-                <CheckCircle2 className="size-4 text-brand-amber" />
-                Sigilo profissional garantido
-              </span>
             </div>
 
           </div>
