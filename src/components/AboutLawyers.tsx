@@ -90,7 +90,7 @@ export const AboutLawyers: React.FC = () => {
                   Dr. Marcelo Igreja
                 </h3>
                 <p className="text-brand-amberLight font-semibold text-sm sm:text-base mt-1">
-                  Advogado e Sócio do Escritório
+                  Advogado trabalhista e sócio do escritório Marcelo Igreja & Thiago Andrade Advocacia
                 </p>
                 <div className="inline-block mt-2 bg-brand-amber/20 text-brand-amberLight text-xs font-bold px-3 py-1 rounded-full border border-brand-amber/40">
                   OAB/CE 57.430
@@ -99,19 +99,16 @@ export const AboutLawyers: React.FC = () => {
 
               <div className="space-y-4 text-slate-300 text-sm leading-relaxed">
                 <p>
-                  Dr. Marcelo Igreja é advogado e sócio do escritório Marcelo Igreja & Thiago Andrade Advocacia, com atuação direcionada às áreas do Direito do Trabalho e do Direito Previdenciário.
+                  Dr. Marcelo Igreja é advogado, pós-graduado em Direito do Trabalho, pós-graduando em Direito Previdenciário e sócio do escritório Marcelo Igreja & Thiago Andrade Advocacia. Sua atuação tem como foco o Direito do Trabalho, com orientação e defesa de trabalhadores e empresas em questões decorrentes das relações de emprego.
                 </p>
                 <p>
-                  É graduado em Direito, pós-graduado em Direito do Trabalho e pós-graduando em Direito Previdenciário. Sua formação jurídica está voltada para a orientação, a prevenção de conflitos e a defesa dos direitos de trabalhadores, segurados, beneficiários e empresas.
+                  Sua trajetória profissional em grandes corporações, exercendo funções executivas e de liderança, proporciona uma compreensão prática do ambiente empresarial, da gestão de pessoas e dos conflitos que podem surgir entre empregados e empregadores. Essa vivência complementa sua formação jurídica e contribui para uma análise mais ampla das situações apresentadas pelos clientes.
                 </p>
                 <p>
-                  Sua trajetória profissional também foi construída em grandes corporações, nas quais exerceu funções executivas e de liderança. Essa vivência proporciona uma compreensão prática das relações de trabalho, dos ambientes organizacionais e das dificuldades enfrentadas por empresas, gestores e trabalhadores.
+                  Na área trabalhista, atua em demandas relacionadas a contratos de trabalho, verbas rescisórias, horas extras, adicionais, reconhecimento de vínculo, acidentes e doenças ocupacionais, assédio, estabilidade, desligamentos e demais direitos decorrentes da relação de emprego.
                 </p>
                 <p>
-                  No Direito Previdenciário, direciona sua atuação para demandas relacionadas a benefícios do INSS, incluindo aposentadorias, benefícios por incapacidade e Benefício de Prestação Continuada (BPC/LOAS). Na área trabalhista, participa da análise de questões envolvendo contratos de trabalho, verbas trabalhistas, rescisões, condições laborais e prevenção de riscos.
-                </p>
-                <p>
-                  Como sócio do escritório, Dr. Marcelo Igreja contribui para uma atuação jurídica pautada pelo atendimento próximo, pela comunicação clara e pela análise individualizada de cada situação, buscando soluções responsáveis e juridicamente fundamentadas.
+                  Como sócio do escritório, Dr. Marcelo Igreja participa da análise individualizada de cada caso e da construção das estratégias jurídicas, com atendimento próximo, comunicação clara e atuação responsável na prevenção e na solução de conflitos trabalhistas.
                 </p>
               </div>
 
