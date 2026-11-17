@@ -23,21 +23,14 @@ export const Hero: React.FC = () => {
               Orientação jurídica clara e atendimento próximo para trabalhadores que precisam entender, calcular e defender seus direitos contra demissões injustas, horas extras ou abusos.
             </p>
 
-            {/* Action Buttons */}
-            <div className="pt-2 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
+            {/* Action Button */}
+            <div className="pt-2 flex flex-col sm:flex-row items-center justify-center lg:justify-start">
               <a
                 href="#contato"
                 className="w-full sm:w-auto inline-flex items-center justify-center gap-3 gold-btn font-extrabold text-base px-9 py-4 rounded-xl shadow-xl hover:scale-[1.03] transition-transform duration-300 uppercase tracking-wide"
               >
                 <span>Quero analisar meu caso</span>
                 <ArrowRight className="size-5" />
-              </a>
-              <a
-                href="#atuacao"
-                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 text-slate-300 hover:text-brand-amberLight text-sm font-semibold px-6 py-4 transition-colors"
-              >
-                <span>Conheça nossa atuação</span>
-                <ArrowRight className="size-4" />
               </a>
             </div>
 
