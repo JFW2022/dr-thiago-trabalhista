@@ -13,8 +13,8 @@ export const Hero: React.FC = () => {
             {/* Main Headline */}
             <h1 className="font-heading font-extrabold text-3xl sm:text-4xl md:text-5xl lg:text-6xl tracking-tight leading-[1.18]">
               Seus direitos no trabalho merecem{' '}
-              <span className="text-gradient-gold italic underline decoration-brand-amber decoration-4 underline-offset-8">
-                atenção.
+              <span className="text-gradient-gold underline decoration-brand-amber decoration-4 underline-offset-8">
+                ATENÇÃO.
               </span>
             </h1>
 
