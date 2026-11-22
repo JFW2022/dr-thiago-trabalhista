@@ -132,7 +132,7 @@ export const Testimonials: React.FC = () => {
             O Reconhecimento de Quem Já Foi Atendido
           </h2>
           <p className="text-slate-600 mt-4 text-sm sm:text-base leading-relaxed">
-            Veja as mensagens e avaliações enviadas diretamente pelas pessoas que confiaram na atuação do <strong>Dr. Thiago Andrade</strong>.
+            Veja as mensagens e avaliações enviadas diretamente pelas pessoas que confiaram na atuação do escritório <strong>Marcelo Igreja & Thiago Andrade Advocacia</strong>.
           </p>
         </div>
 

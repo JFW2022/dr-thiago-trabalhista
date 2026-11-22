@@ -28,12 +28,12 @@ export const AboutLawyers: React.FC = () => {
                 <div className="relative rounded-2xl overflow-hidden border-2 border-brand-amber/40 shadow-2xl">
                   <img
                     src="/dr-thiago-andrade.jpg"
-                    alt="Dr. Thiago Andrade - Advogado Fundador OAB/RJ 260.276"
+                    alt="Dr. Thiago Andrade - Advogado e Sócio OAB/RJ 260.276"
                     className="w-full h-[380px] sm:h-[420px] object-cover object-top transform transition duration-500 group-hover:scale-105"
                   />
                   <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-brand-navyDark/90 via-brand-navyDark/40 to-transparent p-4 text-center">
                     <span className="text-brand-amberLight font-bold text-sm block">Dr. Thiago Andrade</span>
-                    <span className="text-xs text-slate-300">Advogado Fundador</span>
+                    <span className="text-xs text-slate-300">Advogado e Sócio do Escritório</span>
                   </div>
                 </div>
               </div>
@@ -42,14 +42,17 @@ export const AboutLawyers: React.FC = () => {
             <div className="lg:col-span-7 space-y-5 text-left">
               <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-brand-amber/20 text-brand-amberLight text-xs font-bold uppercase tracking-wider">
                 <Scale className="size-3.5" />
-                Advogado Titular
+                Advogado & Sócio
               </div>
 
               <div>
                 <h3 className="font-heading font-extrabold text-2xl sm:text-3xl text-white">
                   Dr. Thiago Andrade
                 </h3>
-                <div className="inline-block mt-1 bg-brand-amber/20 text-brand-amberLight text-xs font-bold px-3 py-1 rounded-full border border-brand-amber/40">
+                <p className="text-brand-amberLight font-semibold text-sm sm:text-base mt-1">
+                  Advogado e Sócio do Escritório
+                </p>
+                <div className="inline-block mt-2 bg-brand-amber/20 text-brand-amberLight text-xs font-bold px-3 py-1 rounded-full border border-brand-amber/40">
                   Advogado – OAB/RJ 260.276
                 </div>
               </div>
@@ -59,7 +62,7 @@ export const AboutLawyers: React.FC = () => {
               </p>
 
               <p className="text-slate-300 text-sm leading-relaxed">
-                O escritório <strong>Thiago Andrade Advocacia</strong> conduz cada caso com rigor técnico e sensibilidade humana, analisando criteriosamente contratos, cartões de ponto, demonstrativos de pagamento e histórico funcional para estruturar pedidos sólidos perante a Justiça do Trabalho.
+                O escritório <strong>Marcelo Igreja & Thiago Andrade Advocacia</strong> conduz cada caso com rigor técnico e sensibilidade humana, analisando criteriosamente contratos, cartões de ponto, demonstrativos de pagamento e histórico funcional para estruturar pedidos sólidos perante a Justiça do Trabalho.
               </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2 text-xs text-slate-200">
@@ -90,7 +93,7 @@ export const AboutLawyers: React.FC = () => {
                   Dr. Marcelo Igreja
                 </h3>
                 <p className="text-brand-amberLight font-semibold text-sm sm:text-base mt-1">
-                  Advogado trabalhista e sócio do escritório Marcelo Igreja & Thiago Andrade Advocacia
+                  Advogado e Sócio do Escritório
                 </p>
                 <div className="inline-block mt-2 bg-brand-amber/20 text-brand-amberLight text-xs font-bold px-3 py-1 rounded-full border border-brand-amber/40">
                   OAB/CE 57.430
@@ -135,7 +138,7 @@ export const AboutLawyers: React.FC = () => {
                   />
                   <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-brand-navyDark/90 via-brand-navyDark/40 to-transparent p-4 text-center">
                     <span className="text-brand-amberLight font-bold text-sm block">Dr. Marcelo Igreja</span>
-                    <span className="text-xs text-slate-300">Advogado e Sócio • OAB/CE 57.430</span>
+                    <span className="text-xs text-slate-300">Advogado e Sócio do Escritório</span>
                   </div>
                 </div>
               </div>
