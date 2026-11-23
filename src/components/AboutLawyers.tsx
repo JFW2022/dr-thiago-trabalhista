@@ -115,10 +115,10 @@ export const AboutLawyers: React.FC = () => {
               <div className="pt-2">
                 <a
                   href="#contato"
-                  className="inline-flex items-center gap-3 bg-gradient-to-r from-brand-amber to-brand-amberDark text-slate-950 font-extrabold px-8 py-3.5 rounded-xl shadow-xl hover:brightness-110 transition-all text-xs sm:text-sm uppercase tracking-wide"
+                  className="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 sm:gap-3 bg-gradient-to-r from-brand-amber to-brand-amberDark text-slate-950 font-extrabold px-5 sm:px-8 py-3.5 rounded-xl shadow-xl hover:brightness-110 transition-all text-xs sm:text-sm uppercase tracking-wide text-center"
                 >
-                  <span>VERIFICAR MEU CASO COM A EQUIPE</span>
-                  <ArrowRight className="size-4" />
+                  <span className="text-center leading-tight">VERIFICAR MEU CASO COM A EQUIPE</span>
+                  <ArrowRight className="size-4 shrink-0" />
                 </a>
               </div>
             </div>

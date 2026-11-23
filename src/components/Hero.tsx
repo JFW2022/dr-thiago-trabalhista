@@ -115,10 +115,10 @@ export const Hero: React.FC = () => {
               <div>
                 <a
                   href="#contato"
-                  className="w-full inline-flex items-center justify-center gap-3 gold-btn font-extrabold text-base sm:text-lg px-8 py-4 rounded-xl shadow-xl hover:scale-[1.02] transition-all duration-300 uppercase tracking-wide border border-brand-amberLight/40"
+                  className="w-full inline-flex items-center justify-center gap-2.5 sm:gap-3 gold-btn font-extrabold text-sm sm:text-base md:text-lg px-4 sm:px-8 py-3.5 sm:py-4 rounded-xl shadow-xl hover:scale-[1.02] transition-all duration-300 uppercase tracking-wide border border-brand-amberLight/40 text-center"
                 >
                   <FileText className="size-5 shrink-0 text-brand-navy" />
-                  <span className="text-brand-navy font-black">QUERO ANALISAR MEU CASO</span>
+                  <span className="text-brand-navy font-black text-center leading-tight">QUERO ANALISAR MEU CASO</span>
                   <ArrowRight className="size-5 shrink-0 text-brand-navy" />
                 </a>
               </div>
