@@ -27,7 +27,7 @@ export const AboutLawyers: React.FC = () => {
                 <div className="absolute -inset-1.5 bg-gradient-to-tr from-brand-amber via-brand-amberLight to-brand-navyLight rounded-3xl blur-md opacity-40 group-hover:opacity-70 transition duration-500" />
                 <div className="relative rounded-2xl overflow-hidden border-2 border-brand-amber/40 shadow-2xl">
                   <img
-                    src="/dr-thiago-andrade.jpg"
+                    src="/dr-thiago-andrade.jpg?v=2"
                     alt="Dr. Thiago Andrade - Advogado e Sócio OAB/RJ 260.276"
                     className="w-full h-[380px] sm:h-[420px] object-cover object-top transform transition duration-500 group-hover:scale-105"
                   />

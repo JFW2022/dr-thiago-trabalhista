@@ -46,7 +46,7 @@ export const Hero: React.FC = () => {
               {/* Card Container com Foto */}
               <div className="relative rounded-2xl overflow-hidden border-2 border-brand-amber/40 shadow-2xl bg-brand-navyCard">
                 <img
-                  src="/dr-thiago-andrade.jpg"
+                  src="/dr-thiago-andrade.jpg?v=2"
                   alt="Dr. Thiago Andrade - Advogado Trabalhista OAB/RJ 260.276"
                   className="w-full h-[420px] sm:h-[480px] object-cover object-top transform transition duration-700 group-hover:scale-105"
                 />
