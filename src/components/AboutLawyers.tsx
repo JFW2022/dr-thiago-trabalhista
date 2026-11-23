@@ -1,5 +1,5 @@
 import React from 'react';
-import { CheckCircle2, Scale, ShieldCheck, ArrowRight } from 'lucide-react';
+import { CheckCircle2, ArrowRight } from 'lucide-react';
 
 export const AboutLawyers: React.FC = () => {
   return (
@@ -40,11 +40,6 @@ export const AboutLawyers: React.FC = () => {
             </div>
 
             <div className="lg:col-span-7 space-y-5 text-left">
-              <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-brand-amber/20 text-brand-amberLight text-xs font-bold uppercase tracking-wider">
-                <Scale className="size-3.5" />
-                Advogado & Sócio
-              </div>
-
               <div>
                 <h3 className="font-heading font-extrabold text-2xl sm:text-3xl text-white">
                   Dr. Thiago Andrade
@@ -83,11 +78,6 @@ export const AboutLawyers: React.FC = () => {
             
             {/* Texto à Esquerda */}
             <div className="lg:col-span-7 space-y-5 text-left order-2 lg:order-1">
-              <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-brand-amber/20 text-brand-amberLight text-xs font-bold uppercase tracking-wider">
-                <ShieldCheck className="size-3.5" />
-                Advogado & Sócio
-              </div>
-
               <div>
                 <h3 className="font-heading font-extrabold text-2xl sm:text-3xl text-white">
                   Dr. Marcelo Igreja
