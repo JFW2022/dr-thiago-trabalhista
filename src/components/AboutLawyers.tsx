@@ -1,5 +1,5 @@
 import React from 'react';
-import { CheckCircle2, ArrowRight } from 'lucide-react';
+import { CheckCircle2, ShieldCheck, ArrowRight } from 'lucide-react';
 
 export const AboutLawyers: React.FC = () => {
   return (
@@ -44,11 +44,14 @@ export const AboutLawyers: React.FC = () => {
                 <h3 className="font-heading font-extrabold text-2xl sm:text-3xl text-white">
                   Dr. Thiago Andrade
                 </h3>
-                <p className="text-brand-amberLight font-semibold text-sm sm:text-base mt-1">
-                  Advogado e Sócio do Escritório
-                </p>
-                <div className="inline-block mt-2 bg-brand-amber/20 text-brand-amberLight text-xs font-bold px-3 py-1 rounded-full border border-brand-amber/40">
-                  Advogado – OAB/RJ 260.276
+                <div className="flex flex-wrap items-center gap-2 mt-2">
+                  <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-slate-800/90 border border-slate-700/60 text-brand-amberLight text-xs font-bold uppercase tracking-wider">
+                    <ShieldCheck className="size-3.5 text-brand-amber shrink-0" />
+                    Advogado & Sócio
+                  </span>
+                  <span className="inline-block bg-brand-amber/20 text-brand-amberLight text-xs font-bold px-3 py-1 rounded-full border border-brand-amber/40">
+                    OAB/RJ 260.276
+                  </span>
                 </div>
               </div>
 
@@ -82,11 +85,14 @@ export const AboutLawyers: React.FC = () => {
                 <h3 className="font-heading font-extrabold text-2xl sm:text-3xl text-white">
                   Dr. Marcelo Igreja
                 </h3>
-                <p className="text-brand-amberLight font-semibold text-sm sm:text-base mt-1">
-                  Advogado e Sócio do Escritório
-                </p>
-                <div className="inline-block mt-2 bg-brand-amber/20 text-brand-amberLight text-xs font-bold px-3 py-1 rounded-full border border-brand-amber/40">
-                  OAB/CE 57.430
+                <div className="flex flex-wrap items-center gap-2 mt-2">
+                  <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-slate-800/90 border border-slate-700/60 text-brand-amberLight text-xs font-bold uppercase tracking-wider">
+                    <ShieldCheck className="size-3.5 text-brand-amber shrink-0" />
+                    Advogado & Sócio
+                  </span>
+                  <span className="inline-block bg-brand-amber/20 text-brand-amberLight text-xs font-bold px-3 py-1 rounded-full border border-brand-amber/40">
+                    OAB/CE 57.430
+                  </span>
                 </div>
               </div>
 
