@@ -31,9 +31,10 @@ export const AboutLawyers: React.FC = () => {
                     alt="Dr. Thiago Andrade - Advogado e Sócio OAB/RJ 260.276"
                     className="w-full h-[380px] sm:h-[420px] object-cover object-top transform transition duration-500 group-hover:scale-105"
                   />
-                  <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-brand-navyDark/90 via-brand-navyDark/40 to-transparent p-4 text-center">
-                    <span className="text-brand-amberLight font-bold text-sm block">Dr. Thiago Andrade</span>
-                    <span className="text-xs text-slate-300">Advogado e Sócio do Escritório</span>
+                  <div className="absolute inset-0 bg-gradient-to-t from-brand-navyDark/80 via-transparent to-transparent pointer-events-none" />
+                  <div className="absolute bottom-3 inset-x-3 bg-brand-navyDark/90 backdrop-blur-md px-4 py-2.5 rounded-xl border border-brand-amber/35 shadow-xl text-center">
+                    <span className="text-brand-amberLight font-bold text-sm sm:text-base block tracking-tight">Dr. Thiago Andrade</span>
+                    <span className="text-xs text-slate-300 font-medium block mt-0.5">Advogado e Sócio do Escritório</span>
                   </div>
                 </div>
               </div>
@@ -132,9 +133,10 @@ export const AboutLawyers: React.FC = () => {
                     alt="Dr. Marcelo Igreja - Advogado e Sócio OAB/CE 57.430"
                     className="w-full h-[380px] sm:h-[420px] object-cover object-top transform transition duration-500 group-hover:scale-105"
                   />
-                  <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-brand-navyDark/90 via-brand-navyDark/40 to-transparent p-4 text-center">
-                    <span className="text-brand-amberLight font-bold text-sm block">Dr. Marcelo Igreja</span>
-                    <span className="text-xs text-slate-300">Advogado e Sócio do Escritório</span>
+                  <div className="absolute inset-0 bg-gradient-to-t from-brand-navyDark/80 via-transparent to-transparent pointer-events-none" />
+                  <div className="absolute bottom-3 inset-x-3 bg-brand-navyDark/90 backdrop-blur-md px-4 py-2.5 rounded-xl border border-brand-amber/35 shadow-xl text-center">
+                    <span className="text-brand-amberLight font-bold text-sm sm:text-base block tracking-tight">Dr. Marcelo Igreja</span>
+                    <span className="text-xs text-slate-300 font-medium block mt-0.5">Advogado e Sócio do Escritório</span>
                   </div>
                 </div>
               </div>
